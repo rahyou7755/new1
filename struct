@@ -1,0 +1,15 @@
+#include<stdio.h>
+int main()
+{
+	struct tag
+	{
+		int a;
+		union tag1
+		{
+			int n;
+			char h;
+		}var;
+}var1;
+
+printf("%d",
+
